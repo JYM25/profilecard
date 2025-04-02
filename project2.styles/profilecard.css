@@ -1,0 +1,144 @@
+.mainbody{
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 800px;
+  padding: 100px;
+  font-family: Arial;
+  justify-content: space-between;
+}
+
+.left-section{
+  display: flex;
+  color: rgb(0, 98, 255);
+  font-weight: 800;
+  font-size: 33px;
+}
+
+.thick-line{
+  width: 10px ;
+  height: 300px;
+  background-color: rgb(0, 98, 255);
+  margin-right: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shaded-portion{
+  height: 140px;
+  background-color: rgb(0, 98, 255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture-container{
+  height: 100px;
+  width: 100px;
+  border: 3px solid rgb(0, 98, 255);
+  position: absolute;
+  bottom: -20px;
+  border-radius: 50px;
+}
+
+.profile-picture{
+  width: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+.personal-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+
+.name-of-org{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.social-media-handles{
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-handles img{
+  height: 30px;
+  margin-right:  20px;
+  cursor: pointer;
+}
+
+.buttons{
+  margin-top: 20px;
+ 
+}
+
+.button-s{
+  margin-right: 20px;
+}
+
+.button-s,
+.button-m
+{
+  color: white;
+  background-color: rgb(0, 98, 255);
+  border: none;
+  width: 120px;
+  padding: 10px;
+  border-radius: 17px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.button-s:hover,
+.button-m:hover{
+  opacity: 0.6;
+}
+
+.reactions-div{
+  display: flex;
+  margin-top: 20px;
+  
+  
+}
+
+.reactions{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  
+}
+
+.reactions img{
+  height: 15px;
+  padding-right:5px;
+  padding-left: 5px;
+ 
+}
+
+.stats{
+  padding-right: 10px;
+  font-size: 15px;
+}
